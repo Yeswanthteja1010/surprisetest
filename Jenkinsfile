@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/username/repository.git'
+                git 'https://github.com/Yeswanthteja1010/surprisetest.git'
             }
         }
         stage('Install Dependencies') {
